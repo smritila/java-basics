@@ -1,0 +1,21 @@
+# Common exclusions for Java projects
+
+# Logs
+*.log
+
+# Compiled class file
+*.class
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# VS Code
+.vscode/
