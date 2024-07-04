@@ -22,6 +22,7 @@ class Company {
         c1 = null;
         // c2=c1;
         System.out.println(c2.name);
+        System.out.println(c1);
 
     }
 }
