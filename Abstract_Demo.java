@@ -1,5 +1,5 @@
 abstract class Animal {
-    public abstract void makeSound();
+    public abstract void makeSound();// implementation is not possible here in abstract method.
 
     public void sleep() {
         System.out.println("Zzz");
