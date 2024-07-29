@@ -19,6 +19,10 @@ class Cat extends Animal {
         System.out.println("Meow");
     }
 
+    public void eat() {
+        System.out.println("In eating..");
+    }
+
 }
 
 public class Abstract_Demo {
@@ -29,6 +33,7 @@ public class Abstract_Demo {
         Cat myCat = new Cat();
         myCat.makeSound();
         myCat.sleep();
+        myCat.eat();
 
     }
 }
