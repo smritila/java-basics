@@ -14,10 +14,17 @@ class B extends Thread {
     public void run()
     // public void show()
     {
-        for (int i = 1; i <= 10; i++)
+        for (int i = 1; i <= 10; i++) {
             System.out.println("hello");
-    }
 
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
+    }
 }
 
 public class MultipleThreads {
